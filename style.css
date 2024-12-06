@@ -1,0 +1,154 @@
+
+.menu {
+    width: 1280px;
+    height: 720px;
+    background-color: rgb(48, 48, 48);
+    margin: 125px 0 0 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(48, 48, 48);
+
+}
+
+.xhtext {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px white ;
+    color: white;
+    margin: 125px 0 0 400px;
+    padding-top: 25px;
+    font-size: 75px;
+
+}
+
+.panels {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.panel1 {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px white;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out
+}
+
+.panel2 {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px white;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out
+}
+
+.panel3 {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 20px white;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out
+}
+
+.whoiam {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+    margin: 20px 0 0 50px;
+    transition: all 0.3s ease-in-out
+}
+
+.softxt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    margin: 40px 0 0 30px;
+    transition: all 0.3s ease-in-out
+}
+
+.image1 {
+    width: 320px;   
+    height: 275px;
+    left: 20px;
+    bottom: 15px;
+    position: relative;
+}
+
+.image2 {
+    width: 320px;   
+    height: 325px;
+    left: 15px;
+    bottom: 50px;
+    position: relative;
+}
+
+.pctxt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    margin: 40px 0 0 35px;
+    transition: all 0.3s ease-in-out
+}
+
+.image3 {
+    width: 275px;   
+    height: 225px;
+    left: 20px;
+    top: 15px;
+    position: relative;
+
+}
+
+.panel1:hover {
+    background-color: #222222;
+    text-shadow: 0 0 20px #3d3d3d;
+    box-shadow: 0 0 20px #3d3d3d;
+}
+
+.panel2:hover {
+    background-color: #222222;
+    text-shadow: 0 0 20px #3d3d3d;
+    box-shadow: 0 0 20px #3d3d3d;
+}
+
+.panel3:hover {
+    background-color: #222222;
+    text-shadow: 0 0 20px #3d3d3d;
+    box-shadow: 0 0 20px #3d3d3d;
+}
+
+.whoiam:hover {
+    color: white;
+}
+
+.pctxt:hover {
+    color: white;
+}
+
+.softxt:hover {
+    color: white;
+}
+
+body {
+    background-image: url(Размер1.jpeg);
+    filter: blur(75%);
+}
