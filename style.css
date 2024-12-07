@@ -10,24 +10,24 @@
 }
 
 .xhtext {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800px;
-    text-shadow: 0 0 3px white ;
-    color: white;
-    margin: 125px 0 0 400px;
-    padding-top: 25px;
-    font-size: 75px;
-
+    position: absolute;
+   bottom: 415px;
+   margin-left: 50px;
+   justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
 .panels {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 175px;
+    margin-left: 65px;
+    z-index: 2;
 }
 
 .panel1 {
@@ -150,5 +150,86 @@
 
 body {
     background-image: url(Размер1.jpeg);
-    filter: blur(75%);
+    backdrop-filter: blur(25%);
+    background-position: center;
+    background-size: cover;
 }
+
+.button1 {
+    width: 250px;
+    height: 65px;
+    background-color: #4e4e4e;
+    box-shadow: 0 0 20px #646464;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 50px;
+    position: relative;
+    bottom: 25px;
+    transition: all 0.3s linear;
+}
+
+.button1:hover {
+    background-color: white;
+    box-shadow: 0 0 20px white;
+}
+
+.buttontext1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(126, 126, 126) ;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: absolute;
+    margin: 5px 0 0 80px;
+    transition: all 0.3s linear;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttontext1:hover {
+    color: #070707;
+    text-shadow: 0 0 3px #353535;
+}
+
+.button2 {
+    width: 250px;
+    height: 65px;
+    background-color: #4e4e4e;
+    box-shadow: 0 0 20px #646464;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 50px;
+    position: relative;
+    bottom: 70px;
+    transition: all 0.3s linear;
+}
+
+.button2:hover {
+    background-color: white;
+    box-shadow: 0 0 20px white;
+}
+
+.button3 {
+    width: 250px;
+    height: 65px;
+    background-color: #4e4e4e;
+    box-shadow: 0 0 20px #646464;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 50px;
+    position: relative;
+    transition: all 0.3s linear;
+}
+
+.button3:hover {
+    background-color: white;
+    box-shadow: 0 0 20px white;
+}
+
+* {
+    user-select: none;
+    }
+    
